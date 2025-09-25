@@ -157,6 +157,7 @@
     <ClInclude Include="Engine\Core\Application.hpp" />
     <ClInclude Include="Engine\Core\Input.hpp" />
     <ClInclude Include="Engine\Core\Window.hpp" />
+    <ClInclude Include="Engine\Graphics\Renderer2D.hpp" />
     <ClInclude Include="Engine\Math\Common.hpp" />
     <ClInclude Include="Engine\Math\Math.hpp" />
     <ClInclude Include="Engine\Math\Trigonometry.hpp" />
@@ -170,6 +171,7 @@
     <ClCompile Include="Engine\Core\Application.cpp" />
     <ClCompile Include="Engine\Core\Window.cpp" />
     <ClCompile Include="Engine\glad.c" />
+    <ClCompile Include="Engine\Graphics\Renderer2D.cpp" />
     <ClCompile Include="Engine\main.cpp" />
     <ClCompile Include="Engine\Math\VectorMath.cpp" />
   </ItemGroup>

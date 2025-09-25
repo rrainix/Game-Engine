@@ -1,5 +1,6 @@
 #pragma once
 #include "Window.hpp"
+#include "../Graphics/Renderer2D.hpp"
 #include <optional>
 
 namespace Engine {
@@ -11,5 +12,6 @@ namespace Engine {
 	private:
 		void Initialize();
 		std::optional<Window> m_Window;
+		std::optional<Renderer2D> m_Renderer2D;
 	};
 }
